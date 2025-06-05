@@ -1,6 +1,10 @@
 [package]
-name = "rustkeys"
+name = "speed"
 version = "0.1.0"
-edition = "2024"
-
+edition = "2021"
 [dependencies]
+bitcoin = "0.31"
+rand = "0.8"
+rand_xorshift = "0.3"
+rayon = "1.8"
+hex = "0.4.3"
